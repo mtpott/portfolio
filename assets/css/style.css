@@ -13,11 +13,17 @@ body {
     background-color: var(--primary-color);
     color: var(--tertiary-color);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 30px;
+    padding: 5px;
 }
 
 header {
-    margin: 0;
-    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    padding-left: 10px;
+    font-size: 38px;
 }
 
 header nav {
@@ -40,6 +46,36 @@ header nav ul li a{
     color: var(--secondary-color);
 }
 
-.project-link {
-    display: flex;
+/* .about h2 {
+    line-height: 1.5;
+    margin-left: 25px;
+}*/
+
+.about p {
+    margin-left: 40px;
+}
+
+.projects {
+    display: inline;
+    width: 50%;
+    background-color: #6d738f;
+}
+
+.projects h2 {
+    line-height: 1.2;
+    padding-bottom: 5px;
+}
+
+.projects a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.contact a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+.contact ul li {
+    display: inline;
+    justify-content: space-between;
 }
