@@ -58,7 +58,7 @@ header nav ul li a{
 .projects {
     display: inline;
     width: 50%;
-    background-color: #6d738f;
+    box-sizing: border-box;
 }
 
 .projects h2 {
@@ -69,6 +69,13 @@ header nav ul li a{
 .projects a {
     text-decoration: none;
     color: var(--secondary-color);
+}
+
+.project-link {
+    background-color: #6d738f;
+    border-bottom: 2px solid black;
+    width: 50%;
+    display: flex;
 }
 
 .contact a {
