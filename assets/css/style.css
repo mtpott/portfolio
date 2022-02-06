@@ -19,11 +19,17 @@ body {
 
 header {
     margin-bottom: 10px;
+    background-color: #9094ab;
+    padding-top: 10px;
+    margin: 0;
 }
 
 header h1 {
     padding-left: 10px;
     font-size: 38px;
+    display: inline;
+    margin: auto;
+    line-height: 1.2;
 }
 
 header nav {
@@ -32,18 +38,16 @@ header nav {
     font-size: 25px;
 }
 
-header nav ul {
-    list-style: none;
-}
-
 header nav ul li {
     display: inline;
     justify-content: space-between;
 }
 
-header nav ul li a{
+header nav ul li a {
     text-decoration: none;
     color: var(--secondary-color);
+    font-weight: lighter;
+    padding-right: 5px;
 }
 
 /* .about h2 {
