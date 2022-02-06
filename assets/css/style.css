@@ -50,10 +50,11 @@ header nav ul li a {
     padding-right: 5px;
 }
 
-/* .about h2 {
+.about h2 {
     line-height: 1.5;
-    margin-left: 25px;
-}*/
+    margin-left: 20px;
+    font-size: 30px;
+}
 
 .about p {
     margin-left: 40px;
