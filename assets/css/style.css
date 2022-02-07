@@ -20,8 +20,9 @@ body {
 header {
     margin-bottom: 10px;
     background-color: #9094ab;
-    padding-top: 10px;
-    margin: 0;
+    padding: 10px;
+    margin: 5px;
+    border: solid 2px #19400f;
 }
 
 header h1 {
@@ -48,6 +49,11 @@ header nav ul li a {
     color: var(--secondary-color);
     font-weight: lighter;
     padding-right: 5px;
+}
+
+header nav ul li a:hover {
+    font-weight: normal;
+    font-style: italic;
 }
 
 h2 {
