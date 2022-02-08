@@ -31,6 +31,16 @@ header h1 {
     display: inline;
     margin: auto;
     line-height: 1.2;
+    
+}
+
+.back-to-home{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.back-to-home:hover {
+    color: var(--tertiary-color);
 }
 
 header nav {
@@ -56,6 +66,7 @@ header nav ul li a {
 header nav ul li a:hover {
     font-weight: normal;
     font-style: italic;
+    opacity: 0.5;
 }
 
 h2 {
@@ -84,12 +95,11 @@ h2 {
     flex-wrap: wrap;
     padding: 20px;
     margin: 20px;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 /* .project {
-    height: 250px;
-    width: 400px;
+    vertical-align: bottom;
 } */
 
 .projects h2 {
@@ -104,8 +114,6 @@ h2 {
     border-bottom: 2px solid black;
     margin-bottom: 20px;
     padding-bottom: 20px;
-    width: 400px;
-    height: 250px;
 }
 
 .resume-doc {
