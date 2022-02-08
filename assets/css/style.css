@@ -37,6 +37,7 @@ header nav {
     display: inline;
     float: right;
     font-size: 25px;
+    padding-top: 7px;
 }
 
 header nav ul li {
@@ -73,42 +74,38 @@ h2 {
 
 }
 
-.work {
+/* .work {
     display: inline;
-}
-
-.project {
-    display: inline;
-    width: 50%;
-    box-sizing: border-box;
-    height: 200px;
-}
-
-.project a {
-    float: right;
-}
-
-/* .projects div {
-    width: 100px;
-    display: inline-block;
+    flex-wrap: wrap;
 } */
 
-/* .projects h2 {
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px;
+    justify-content: center;
+}
+
+/* .project {
+    height: 250px;
+    width: 400px;
+} */
+
+.projects h2 {
     line-height: 1.2;
     padding-bottom: 5px;
-} */
-
-.projects a {
-    text-decoration: none;
-    color: var(--secondary-color);
 }
 
 .project-link {
+    text-decoration: none;
+    color: var(--secondary-color);
     background-color: #6d738f;
     border-bottom: 2px solid black;
-    width: 40%;
-    height: 200px;
-    display: flex;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    width: 400px;
+    height: 250px;
 }
 
 .resume-doc {
