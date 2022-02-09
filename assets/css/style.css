@@ -79,22 +79,24 @@ h2 {
     max-width: 25%;
 }
 
-.about {
+#about-container {
     display: flex;
     /* justify-content: space-evenly; */
     flex-wrap: wrap;
 }
 
 .about p {
-    margin-left: 50px;
+    margin-left: 30px;
+    padding-right: 50px;
     padding-top: 10px;
-    width: 40%;
+    flex: 1;
 }
 
 .about img {
-    max-width: 300px;
-    max-height: 900px;
+    width: 200px;
     float: right;
+    max-width: 300px;
+    max-height: 500px;
 }
 
 .about p, .about img {
