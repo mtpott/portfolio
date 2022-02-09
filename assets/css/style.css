@@ -79,23 +79,28 @@ h2 {
     max-width: 25%;
 }
 
-/* .about {
+.about {
     display: flex;
-    justify-content: space-between;
-} */
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+}
 
 .about p {
-    margin-left: 70px;
+    margin-left: 50px;
     padding-top: 10px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    width: 40%;
 }
 
 .about img {
     max-width: 300px;
     max-height: 900px;
-    /* float: right; */
+    float: right;
+}
+
+.about p, .about img {
+    float: left;
+    display: inline;
+    width: 40%;
 }
 
 .project-container {
