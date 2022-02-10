@@ -269,8 +269,8 @@ footer div {
 
     .project-container {
         flex-direction: column;
+        width: 500px;
         flex-wrap: nowrap;
-        display: flex;
     }
 
     #run-buddy-container {
@@ -278,12 +278,17 @@ footer div {
     }
 
     .project-link img {
-        width: 250px;
-        height: 150px;
+        width: 300px;
+        height: 200px;
     }
 
     .resume-doc {
         width: 70%;
         height: 60%;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        float: center;
     }
 }
