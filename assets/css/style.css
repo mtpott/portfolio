@@ -84,11 +84,11 @@ h2:hover {
 
 #about-container {
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
 
-.about p {
+.about-me p {
     margin-left: 30px;
     margin-right: 50px;
     padding-right: 50px;
@@ -98,7 +98,7 @@ h2:hover {
     line-height: 1.5;
 }
 
-.about img {
+.about-me img {
     width: 200px;
     float: right;
     max-width: 300px;
@@ -106,7 +106,7 @@ h2:hover {
     margin-right: 75px;
 }
 
-.about p, .about img {
+.about-me p, .about-me img {
     float: left;
     display: inline;
     width: 40%;
@@ -287,10 +287,10 @@ footer div {
         height: 60%;
     }
 
-    /* .contact-container {
+    .contact-container {
         flex-direction: column;
         float: center;
-    } */
+    }
 
     .contact ul li {
         float: center;
