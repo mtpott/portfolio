@@ -237,7 +237,7 @@ footer div {
 
 @media screen and (max-width: 768px) {
     .header {
-
+        width: 100%;
     }
 
     .header h1 {
@@ -258,6 +258,11 @@ footer div {
 }
 
 @media screen and (max-width: 575px) {
+    header nav {
+        display: inline;
+        width: 100%;
+    }
+
     h2 {
         width: 100%;
     }
@@ -279,5 +284,6 @@ footer div {
 
     .resume-doc {
         width: 70%;
+        height: 60%;
     }
 }
