@@ -287,8 +287,12 @@ footer div {
         height: 60%;
     }
 
-    .contact-container {
+    /* .contact-container {
         flex-direction: column;
+        float: center;
+    } */
+
+    .contact ul li {
         float: center;
     }
 }
