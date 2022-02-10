@@ -215,3 +215,69 @@ footer div {
     background-color: #9094ab;
 }
 
+/* media queries for smaller laptop screens, tablets, and smaller */
+@media screen and (max-width: 980px) {
+    .resume-doc {
+        width: 100%;
+    }
+
+    header ul {
+        position: relative;
+    }
+
+    .about {
+        font-size: 15px;
+    }
+
+    .about img {
+        height: 40%;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+
+    }
+
+    .header h1 {
+        font-size: 25px;
+    }
+
+    .header nav {
+        font-size: 18px;
+    }
+
+    .about p {
+        position: center;
+    }
+
+    .about img {
+        max-height: 100%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    h2 {
+        width: 100%;
+    }
+
+    .project-container {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        display: flex;
+    }
+
+    #run-buddy-container {
+        margin-bottom: 20px;
+    }
+
+    .project-link img {
+        width: 250px;
+        height: 150px;
+    }
+
+    .resume-doc {
+        width: 70%;
+    }
+}
