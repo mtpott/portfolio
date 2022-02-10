@@ -7,10 +7,10 @@ In this challenge, we were tasked with creating our own professional portfolio, 
 I used HTML and CSS in this challenge, and included advanced CSS techniques to make my website more interesting for the viewer.
 
 ## Links
-Link to my portfolio website: 
+Link to my portfolio website: https://mtpott.github.io/portfolio-megan/
 
-Link to my GitHub repository: 
+Link to my GitHub repository: https://github.com/mtpott/portfolio-megan
 
 ## Screenshot
 
-A screenshot of the final project: 
+A screenshot of the final project: ![final-project-image](./assets/images/final-project-image.png)
