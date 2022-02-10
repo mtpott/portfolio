@@ -115,21 +115,19 @@ h2:hover {
 .project-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     width: 700px;
-    height: 500px;
+    height: 900px;
     padding: 20px;
     margin: 0 auto;
 }
 
 .project {
-    height: 50%;
     width: 50%;
-    /* background-color: #6d738f; */
     align-items: center;
     box-sizing: border-box;
-    justify-content: space-evenly;
-    /* width: 500px;
-    height: 225px; */
+    justify-content: space-around;
+    height: 250px;
 }
 
 .project-link {
@@ -141,12 +139,22 @@ h2:hover {
     flex: 1;
     padding: 5px;
 }
+
 .project-link img {
     max-width: 100%;
     max-height: 100%;
     object-fit: fill;
     overflow: hidden;
     display: block;
+}
+
+#run-buddy-container {
+    width: 500px;
+    height: 300px;
+    position: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 75px;
 }
 
 .project-link img:hover {
@@ -180,22 +188,30 @@ h2:hover {
 
 .contact p {
     position: center;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .contact a {
     text-decoration: none;
     color: var(--secondary-color);
-    font-size: 28px;
+    font-size: 25px;
     line-height: 1.5;
     justify-content: space-around;
+    margin-right: 25px;
 }
 
-.contact ul li {
-    margin-right: 10px;
+.contact a:hover {
+    opacity: 0.5;
+}
+
+.contact ul {
+    list-style: none;
+    display: flex;
 }
 
 footer div {
-    margin: 20px;
-    position: center;
+    padding: 10px;
+    font-size: 12px;
+    background-color: #9094ab;
 }
+
