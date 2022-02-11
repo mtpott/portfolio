@@ -13,4 +13,4 @@ Link to my GitHub repository: https://github.com/mtpott/portfolio-megan
 
 ## Screenshot
 
-A screenshot of the final project: ![final-project-image](./assets/images/final-project-image.png)
+A screenshot of the final project: ![final-project-image](./assets/images/portfolio-screenshot.png)
