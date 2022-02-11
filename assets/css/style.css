@@ -9,6 +9,7 @@
     --tertiary-color: #141921;
 }
 
+/* BODY STYLES START */
 body {
     background-color: var(--primary-color);
     color: var(--tertiary-color);
@@ -17,6 +18,7 @@ body {
     padding: 0;
 }
 
+/* header styles start */
 .header {
     margin-bottom: 10px;
     background-color: #9094ab;
@@ -33,7 +35,7 @@ header h1 {
     
 }
 
-.back-to-home{
+.back-to-home {
     text-decoration: none;
     color: var(--secondary-color);
 }
@@ -67,7 +69,9 @@ header nav ul li a:hover {
     font-style: italic;
     opacity: 0.5;
 }
+/* header styles end */
 
+/* content styles start */
 h2 {
     line-height: 1.5;
     margin-left: 20px;
@@ -82,6 +86,7 @@ h2:hover {
     font-style: italic;
 }
 
+/* about me section */
 #about-container {
     display: flex;
     justify-content: space-between;
@@ -112,6 +117,7 @@ h2:hover {
     width: 40%;
 }
 
+/* previous projects section */
 .project-container {
     display: flex;
     flex-wrap: wrap;
@@ -161,6 +167,7 @@ h2:hover {
     opacity: 0.5;
 }
 
+/* resume section */ 
 .resume-doc {
     max-width: 100%;
     max-height: 100%;
@@ -173,6 +180,7 @@ h2:hover {
     margin-top: 15px;
 }
 
+/* contact me section */
 .contact-container {
     max-width: 100%;
     margin: 50px;
@@ -209,11 +217,14 @@ h2:hover {
     display: flex;
 }
 
+/* footer section */
 footer div {
     padding: 10px;
     font-size: 12px;
     background-color: #9094ab;
 }
+
+/* BODY STYLES END */
 
 /* media queries for smaller laptop screens, tablets, and smaller */
 @media screen and (max-width: 980px) {
@@ -235,6 +246,7 @@ footer div {
     }
 }
 
+/* media queries for mid-size tablets and smaller */
 @media screen and (max-width: 768px) {
     .header {
         width: 100%;
@@ -257,6 +269,7 @@ footer div {
     }
 }
 
+/* media queries for cell phone screens and smaller */
 @media screen and (max-width: 575px) {
     header nav {
         display: inline;
