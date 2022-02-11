@@ -260,13 +260,85 @@ footer div {
         font-size: 18px;
     }
 
-    .about p {
-        position: center;
-    }
+    h2 {
+        width: 100%;
+        font-size: 20px;
+}
 
-    .about img {
-        max-height: 100%;
-    }
+    .about-me {
+        width: 100%;
+        height: 100%;
+}
+
+    #about-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        float: center;
+}
+
+    .about-me p {
+        order: 2;
+        justify-content: center;
+        text-align: center;
+        width: 500px;
+}
+
+    .about-me img {
+        order: 1;
+        margin-top: 10px;
+        margin-left: 20px;
+}
+
+    .work {
+        height: 900px;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+}
+
+    .project-container {
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 400px;
+        flex-wrap: nowrap;
+        height: 850px;
+}
+
+    .project {
+        width: 400px;
+        height: 175px;
+        margin: 10px;
+}
+
+    #run-buddy-container {
+        height: 200px;
+        width: 400px;
+}
+
+    .run-buddy-img {
+        width: 500px;
+        height: 200px;
+}
+
+    .project-img {
+        width: 500px;
+        height: 100px;
+}
+
+    .resume-doc {
+        width: 70%;
+        height: 60%;
+}
+
+    .contact-container {
+        height: 200px;
+        width: 400px;
+}
+
+    .contact ul li {
+        float: center;
 }
 
 /* media queries for cell phone screens and smaller */
@@ -287,85 +359,5 @@ footer div {
         margin-top: 5px;
         margin-left: 10px;
     }
-
-    h2 {
-        width: 100%;
-        font-size: 20px;
-    }
-
-    .about-me {
-        width: 100%;
-        height: 100%;
-    }
-
-    #about-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: stretch;
-        float: center;
-    }
-
-    .about-me p {
-        order: 2;
-        justify-content: center;
-        text-align: center;
-        width: 500px;
-    }
-
-    .about-me img {
-        order: 1;
-        margin-top: 10px;
-        margin-left: 20px;
-    }
-
-    .work {
-        height: 900px;
-        width: 250px;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-    }
-
-    .project-container {
-        flex-direction: column;
-        justify-content: flex-start;
-        width: 400px;
-        flex-wrap: nowrap;
-        height: 850px;
-    }
-
-    .project {
-        width: 400px;
-        height: 175px;
-        margin: 10px;
-    }
-
-    #run-buddy-container {
-        height: 200px;
-        width: 400px;
-    }
-
-    .run-buddy-img {
-        width: 500px;
-        height: 200px;
-    }
-
-    .project-img {
-        width: 500px;
-        height: 100px;
-    }
-
-    .resume-doc {
-        width: 70%;
-        height: 60%;
-    }
-
-    .contact-container {
-        height: 200px;
-        width: 400px;
-    }
-
-    .contact ul li {
-        float: center;
-    }
+}
 }
