@@ -285,7 +285,7 @@ footer div {
     }
 
     .work {
-        height: 900px;
+        height: 1000px;
         width: 400px;
         display: flex;
         justify-content: flex-start;
@@ -293,16 +293,16 @@ footer div {
         flex-wrap: nowrap;
     }
 
-    .project-container {
+    .project-container * {
         flex-direction: column;
         justify-content: flex-start;
         width: 500px;
         flex-wrap: nowrap;
-        height: 1000px;
+        height: 600px;
     }
 
     #run-buddy-container {
-        margin-top: 100px;
+        margin-top: 10px;
         margin-bottom: 20px;
         height: 250px;
         width: 400px;
@@ -311,7 +311,7 @@ footer div {
 
     .run-buddy-img {
         width: 400px;
-        height: 250px;
+        height: 200px;
     }
 
     .project-img {
