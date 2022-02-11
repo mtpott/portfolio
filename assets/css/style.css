@@ -247,7 +247,7 @@ footer div {
 }
 
 /* media queries for mid-size tablets and smaller */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
     .header {
         width: 100%;
     }
