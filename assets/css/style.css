@@ -271,6 +271,10 @@ footer div {
 
 /* media queries for cell phone screens and smaller */
 @media screen and (max-width: 575px) {
+    header {
+        height: 100px;
+    }
+    
     header nav {
         display: inline;
         width: 100%;
@@ -280,19 +284,39 @@ footer div {
         width: 100%;
     }
 
-    .project-container {
+    .work {
+        height: 900px;
+        width: 400px;
+        display: flex;
+        justify-content: flex-start;
         flex-direction: column;
-        width: 500px;
         flex-wrap: nowrap;
     }
 
-    #run-buddy-container {
-        margin-bottom: 20px;
+    .project-container {
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 500px;
+        flex-wrap: nowrap;
+        height: 1000px;
     }
 
-    .project-link img {
-        width: 300px;
-        height: 200px;
+    #run-buddy-container {
+        margin-top: 100px;
+        margin-bottom: 20px;
+        height: 250px;
+        width: 400px;
+        margin-top: 300px;
+    }
+
+    .run-buddy-img {
+        width: 400px;
+        height: 250px;
+    }
+
+    .project-img {
+        width: 400px;
+        height: 250px;
     }
 
     .resume-doc {
